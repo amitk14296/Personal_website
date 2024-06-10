@@ -15,3 +15,15 @@
     width: 320px;
     padding-top: 2rem;
 }
+
+.head_container h1{
+    font-family: cursive;
+    font-size: 4rem;
+    color:#006769;
+}
+
+.head_container h2{
+    font-family:"Montserrat", sans-serif;
+    font-size: 2.5rem;
+    color: #40A578 ;
+}
