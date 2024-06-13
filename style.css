@@ -66,3 +66,46 @@ It's important to note that the element being centered must have a specified wid
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
 }
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact h2{
+    font-family:sans-serif;
+    color: #66bfbf;
+    font-size: 3rem;
+    font-weight:normal;
+    
+}
+
+.contact h3{
+    font-family:sans-serif;
+    color: #66bfbf;
+    font-size: 1.5rem;
+    font-weight:bold;
+
+}
+
+.contact p{
+    font-size: medium;
+}
+
+.contact button{
+    font-size: 20px;
+    color: #ffffff;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    background: #11cdd4;
+    border: none;
+}
+
+.contact button:hover{
+    background-color: #FFF455;
+    color: #11cdd4;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
