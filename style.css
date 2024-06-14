@@ -1,111 +1,29 @@
-.mid_container{
+.head_container{
     display: flex;
     flex-direction: column;
+    height: 75vh;
+    background-color: #E0FBE2;
+    justify-content:flex-end;
     align-items: center;
-    justify-content: center;
+    position: absolute;
+    width: 100%;
 }
 
-hr{
-    border: dotted#eaf6f6 6px;
-    width: 4%;
-    border-bottom: none;
-    margin: 100px auto;
+
+.head_container img{
+    height: 320px;
+    width: 320px;
+    padding-top: 2rem;
 }
 
-.mid_container img{
-    border-radius: 50%;
+.head_container h1{
+    font-family: cursive;
+    font-size: 4rem;
+    color:#006769;
 }
 
-.skill_grid{
-    display: grid;
-    grid-template-columns: 0.5fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    justify-content: center;
-    align-items: center; /* Uncommented and activated */
-    max-width: 60%;
-    margin: 0 auto; /* Center horizontally in its parent */
-    height: 50vh; /* Adjust based on your layout needs */
-
-    /* The "margin" property in CSS controls the spacing around an element. In this case, the value "0 auto" is used. The first value, "0", sets the top and bottom margins to 0, effectively removing any vertical spacing. The second value, "auto", sets the left and right margins to "auto", which automatically distributes the remaining horizontal space equally on both sides of the element.
-
-By setting the left and right margins to "auto", the element will be horizontally centered within its parent container. This is particularly useful when you want to center a block-level element, such as a div, horizontally on the page.
-
-To better understand how this works, imagine the parent container as a box. When the left and right margins are set to "auto", the element will try to expand horizontally to fill the available space equally on both sides. This expansion causes the element to be centered within the parent container. */
-
-/* 
-It's important to note that the element being centered must have a specified width. If the element's width is set to "auto", it will take up the full width of its parent container and won't be centered. */
-
-}
-
-.box1 img{
-    width: 200px;
-    height: 200px;
-}
-
-.box3 img{
-    height: 200px;
-    width: 200px;
-}
-
-#skill_heading{
-    margin: 10px 60vh;
-    font-family: "Montserrat", sans-serif;
-    color: #66bfbf;
-    font-size: 2rem;
-    font-weight: normal;
-}
-
-.box1 {
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-}
-
-.box3 {
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-}
-
-.contact{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.contact h2{
-    font-family:sans-serif;
-    color: #66bfbf;
-    font-size: 3rem;
-    font-weight:normal;
-    
-}
-
-.contact h3{
-    font-family:sans-serif;
-    color: #66bfbf;
-    font-size: 1.5rem;
-    font-weight:bold;
-
-}
-
-.contact p{
-    font-size: medium;
-}
-
-.contact button{
-    font-size: 20px;
-    color: #ffffff;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-    border-radius: 8px;
-    background: #11cdd4;
-    border: none;
-}
-
-.contact button:hover{
-    background-color: #FFF455;
-    color: #11cdd4;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+.head_container h2{
+    font-family:"Montserrat", sans-serif;
+    font-size: 2.5rem;
+    color: #40A578 ;
 }
